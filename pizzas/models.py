@@ -6,7 +6,7 @@ class Pizza(models.Model):
     date_added = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        "모델에 관한 정보를 문자열 형태로 변환한다."
+        """모델에 관한 정보를 문자열 형태로 변환한다."""
         return self.name
 
 class Topping(models.Model):
